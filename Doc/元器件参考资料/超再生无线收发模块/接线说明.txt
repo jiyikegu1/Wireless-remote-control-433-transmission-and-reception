@@ -1,0 +1,28 @@
+﻿
+超再生无线收发模块
+https://detail.tmall.com/item.htm?abbucket=8&id=615405552705&ns=1&pisk=gGyQTzjyHeYIep_usyjZf0BVe1H5dGW2R3i8mupe2vHKy5Z0P2SltvPsPPUsJpShtb37-vhuT4uEPYZulG7V3tr3xYcRuZWV6UaskxY-yLLrWFnjFDBCQ1SLxYDRPhJRgtZ3kGQCNwm-XGirVHLLyXE9Bm0t2DdLyVhtDm8KezCdPCUrqYlzE4fGVrzI83Vzahnaiu3UYQ7oW547pQJhyBm-ykZ2qDnLTNsg-VppJLdp6dnnq4H-2XptX0mX9BhJplptS0H-yzHRffh2zpiwO2ECvnuiDZ7mBk36eLedEXgj-QJWF-nKO8Et5lraCDGIlfTetayL7ueUKffHTYqaGzN8rsRiduFKpmrhddMYv5ySb8SyN2EaCleSt3dLf8gIMJh6VKZsp0U-N5bX3DMU1jwQtgYTvruQMvqycwrsG5GmXfKW9vP408cYp9Tm7jm78VzAHdMtwgzy3q6AXQtsiLisuGs6ZQvcRLLl4meBsXnibaS1fe1o9cmsuGs6ZQcKjcyRfGTCZ&priceTId=undefined&skuId=4509111594133&spm=a21n57.1.hoverItem.9&utparam=%7B%22aplus_abtest%22%3A%22ecf8e20417ba75527a78d0d084982268%22%7D&xxc=taobaoSearch
+
+
+
+发射端连接
+
+433MHz发射模块   	 Arduino Uno
+VCC             			  5V
+GND             			  GND
+DATA            			  D12
+
+
+
+
+接收端连接
+
+433MHz接收模块    Arduino Uno
+VCC               5V
+GND               GND
+DATA              D11
+
+OLED显示屏       Arduino Uno
+VCC              3.3V
+GND              GND
+SCL              A5
+SDA              A4
