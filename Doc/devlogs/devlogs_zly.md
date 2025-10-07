@@ -1,10 +1,7 @@
-# 开发日志
+# 无线遥控433发射与接收开发日志
 
-## 2022.6.13 Mon - 赵
+## 2025.10.06
 
--  MPPT控制器：参照嘉立创元器件库，修改完成LT8491原理图对应电阻和电容封装。
-
-## 2022.2.22 Tue - 赵
-
--  MPPT控制器：1、在ADI官网上下载LT8491封装文件（文件类型bxl），参照[bxl类型封装怎么转换为AD库封装](https://jingyan.baidu.com/article/48b558e326e1b17f39c09a57.html),转化为AD软件可以使用文件；2、由于LT8491原理图封装是按照顺序排列引脚的，根据需要改为引脚间功能相近的在一起；3、参照原理图中引脚1、FBIR（输入电压检测），理解RFBIN1、RFBIN2、RDACI1、RDACI2、CDAC1数值的计算方法。
-- ![LT8491原理部分1.png](imgs/LT8491原理部分1.png)
+- 设计流程思路:产品功能需求分析、嵌入式软硬件开发设计框图、结构设计框图、配套软件。
+- 设计框图：1、设计框图文档已整理为word格式，详细参照`\Doc\设计需求及功能\设计需求及功能.docx`；2、绘制框图软件有Draw.io和Visio，其中Draw.io是GitHub上一个开源的流程图绘制工具，功能很丰富，Visio是word文档常用，且可以用于GitHub，考虑到后续方便word、PPT使用方便，特选择Visio绘制流程图插图；3、。
+- STM32选型：1、STM32F103C8T6_LQFP-48(7x7)、STM32F030K6T6_LQFP-32(7x7)、STM32F030F4P6TR_TSSOP-20都可以作为初期嵌入式开发，在此选择STM32F103C8T6_LQFP-48(7x7)；2、STM系列选型参考[STM选型参考](https://www.st.com.cn/zh/microcontrollers-microprocessors/stm32f0x0-value-line.html#tools-software)及嘉立创商城（主要查看国内常用型号，方便后期购买）。
